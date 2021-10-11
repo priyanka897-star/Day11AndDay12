@@ -4,6 +4,7 @@ import stockaccountmanagement.InputScanner;
 import stockaccountmanagement.StockCatagories;
 
 public class Main {
+
 	static double totalValue = 0;
 
 	public static void main(String[] args) {
@@ -17,8 +18,8 @@ public class Main {
 		totalValue = totalValue + stockcatagories.getTotalValueOfStock();
 		StockAccount stock = new StockAccount();
 		stock.buy(company);
-         boolean check =true;
-		while (check == true) {
+		
+		while (true) {
 			System.out.println("Enter 1.Buy the Company Shares 2.Sell the Company Shares 3.Display ");
 			int choice = InputScanner.inputInteger();
 			switch (choice) {
