@@ -10,7 +10,8 @@ public class AccountTest {
 		if (amount <= ACCOUNTBALANCE) {
 			int totalAccountBalance = ACCOUNTBALANCE - amount;
 			System.out.println("The Remaining money in your account :" + totalAccountBalance);
-		} else {
+		} 
+		else {
 			System.out.println("Debit amount exceeded Account Balance");
 			System.out.println("Your Account Balance is :" + ACCOUNTBALANCE);
 		}
