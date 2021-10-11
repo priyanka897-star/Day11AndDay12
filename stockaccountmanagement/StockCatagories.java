@@ -1,53 +1,48 @@
 package stockaccountmanagement;
 
 public class StockCatagories {
-	
-		private String nameOfShare;
-		private double numberOfShares;
-		private double sharePrice;
-		private double totalValueOfStock;
 
-		public String getShareName() {
-			return nameOfShare;
-		}
+	private String nameOfShare;
+	private double numberOfShares;
+	private double sharePrice;
+	private double totalValueOfStock;
 
-		public void setShareName(String nameOfShare) {
-			this.nameOfShare = nameOfShare;
-		}
+	public String getShareName() {
+		return nameOfShare;
+	}
 
-		public double getNumberOfShares() {
-			return numberOfShares;
-		}
+	public void setShareName(String nameOfShare) {
+		this.nameOfShare = nameOfShare;
+	}
 
-		public void setNumberOfShares(double numberOfShares) {
-			this.numberOfShares = numberOfShares;
-		}
+	public double getNumberOfShares() {
+		return numberOfShares;
+	}
 
-		public double getSharePrice() {
-			return sharePrice;
-		}
+	public void setNumberOfShares(double numberOfShares) {
+		this.numberOfShares = numberOfShares;
+	}
 
-		public void setSharePrice(double sharePrice) {
-			this.sharePrice = sharePrice;
-		}
+	public double getSharePrice() {
+		return sharePrice;
+	}
 
-		public double getTotalValueOfStock() {
-			return totalValueOfStock;
-		}
+	public void setSharePrice(double sharePrice) {
+		this.sharePrice = sharePrice;
+	}
 
-		public void setTotalValueOfStock(double totalValueOfStock) {
-			this.totalValueOfStock = totalValueOfStock;
-		}
+	public double getTotalValueOfStock() {
+		return totalValueOfStock;
+	}
 
-		@Override
-		public String toString() {
-			return "StockCatagories [nameOfShare=" + nameOfShare + ", numberOfShares=" + numberOfShares
-					+ ", sharePrice=" + sharePrice + ", totalValueOfStock=" + totalValueOfStock + "]";
-		}
+	public void setTotalValueOfStock(double totalValueOfStock) {
+		this.totalValueOfStock = totalValueOfStock;
+	}
 
-		
-		
-		
+	@Override
+	public String toString() {
+		return "StockCatagories [nameOfShare=" + nameOfShare + ", numberOfShares=" + numberOfShares + ", sharePrice="
+				+ sharePrice + ", totalValueOfStock=" + totalValueOfStock + "]";
+	}
 
-		
 }
